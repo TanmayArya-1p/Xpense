@@ -1,0 +1,3 @@
+create database if not exists exp;
+use exp;
+create table if not exists users(id varchar(30),uname varchar(30),pwd varchar(30),lastlogin text);
